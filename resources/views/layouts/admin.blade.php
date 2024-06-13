@@ -6,21 +6,21 @@
   <title>PUNTO DE VENTA | Dashboard</title>
 
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="/CarlosExamen/public/plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="/examenyesica/public/plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Tempusdominus Bootstrap 4 -->
-  <link rel="stylesheet" href="/CarlosExamen/public/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <link rel="stylesheet" href="/examenyesica/public/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
   <!-- iCheck -->
-  <link rel="stylesheet" href="/CarlosExamen/public/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <link rel="stylesheet" href="/examenyesica/public/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="/CarlosExamen/public/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="/examenyesica/public/dist/css/adminlte.min.css">
   <!-- overlayScrollbars -->
-  <link rel="stylesheet" href="/CarlosExamen/public/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <link rel="stylesheet" href="/examenyesica/public/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
   <!-- Daterange picker -->
-  <link rel="stylesheet" href="/CarlosExamen/public/plugins/daterangepicker/daterangepicker.css">
+  <link rel="stylesheet" href="/examenyesica/public/plugins/daterangepicker/daterangepicker.css">
   <!-- summernote -->
-  <link rel="stylesheet" href="/CarlosExamen/public/plugins/summernote/summernote-bs4.min.css">
+  <link rel="stylesheet" href="/examenyesica/public/plugins/summernote/summernote-bs4.min.css">
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -100,10 +100,10 @@
           </li>
           
           <li class="nav-item">
-            <a href="{{route('mueble.index')}}" class="nav-link">
+            <a href="{{route('medico.index')}}" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
               <p>
-                Muebles
+                Medicos
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -261,33 +261,33 @@
 <!-- ./wrapper -->
 
 <!-- jQuery -->
-<script src="/CarlosExamen/public/plugins/jquery/jquery.min.js"></script>
+<script src="/examenyesica/public/plugins/jquery/jquery.min.js"></script>
 <!-- jQuery UI 1.11.4 -->
-<script src="/CarlosExamen/public/plugins/jquery-ui/jquery-ui.min.js"></script>
+<script src="/examenyesica/public/plugins/jquery-ui/jquery-ui.min.js"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 <script>
   $.widget.bridge('uibutton', $.ui.button)
 </script>
 <!-- Bootstrap 4 -->
-<script src="/CarlosExamen/public/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/examenyesica/public/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- ChartJS -->
-<script src="/CarlosExamen/public/plugins/chart.js/Chart.min.js"></script>
+<script src="/examenyesica/public/plugins/chart.js/Chart.min.js"></script>
 <!-- Sparkline -->
-<script src="/CarlosExamen/public/plugins/sparklines/sparkline.js"></script>
+<script src="/examenyesica/public/plugins/sparklines/sparkline.js"></script>
 <!-- jQuery Knob Chart -->
-<script src="/CarlosExamen/public/plugins/jquery-knob/jquery.knob.min.js"></script>
+<script src="/examenyesica/public/plugins/jquery-knob/jquery.knob.min.js"></script>
 <!-- daterangepicker -->
-<script src="/CarlosExamen/public/plugins/moment/moment.min.js"></script>
-<script src="/CarlosExamen/public/plugins/daterangepicker/daterangepicker.js"></script>
+<script src="/examenyesica/public/plugins/moment/moment.min.js"></script>
+<script src="/examenyesica/public/plugins/daterangepicker/daterangepicker.js"></script>
 <!-- Tempusdominus Bootstrap 4 -->
-<script src="/CarlosExamen/public/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<script src="/examenyesica/public/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
 <!-- Summernote -->
-<script src="/CarlosExamen/public/plugins/summernote/summernote-bs4.min.js"></script>
+<script src="/examenyesica/public/plugins/summernote/summernote-bs4.min.js"></script>
 <!-- overlayScrollbars -->
-<script src="/CarlosExamen/public/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<script src="/examenyesica/public/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
 <!-- AdminLTE App -->
-<script src="/CarlosExamen/public/dist/js/adminlte.js"></script>
+<script src="/examenyesica/public/dist/js/adminlte.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="/CarlosExamen/public/dist/js/pages/dashboard.js"></script>
+<script src="/examenyesica/public/dist/js/pages/dashboard.js"></script>
 </body>
 </html>

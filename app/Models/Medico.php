@@ -5,11 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Mueble extends Model
+class Medico extends Model
 {
     use HasFactory;
 
-    protected $table = 'mueble';
+    protected $table = 'medico';
 
     protected $primaryKey = 'id';
 
@@ -18,9 +18,9 @@ class Mueble extends Model
     protected $fillable = [
         'id',
         'nombre',
-        'material',
-        'precio',
-        'imagen'
+        'especialidad',
+        'aniosservicio',
+        'foto'
     ];
 
     protected $guarded = [

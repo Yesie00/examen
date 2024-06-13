@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,4 +18,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('mueble', App\Http\Controllers\MuebleController::class);
+
+Route::resource('medico', App\Http\Controllers\MedicoController::class);
